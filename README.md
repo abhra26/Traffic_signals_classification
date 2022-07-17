@@ -1,8 +1,8 @@
-# Traffic_signals_prediction
+# Traffic_signs_prediction
 
 **Version 1.0.0**
 
-**Traffic signals prediction using a CNN model**
+**Traffic signs prediction using a CNN model**
 
 *(Computer Vision)*
 
@@ -14,6 +14,6 @@ Computer vision works much the same as human vision, except humans have a head s
 
 Computer vision trains machines to perform these functions, but it has to do it in much less time with cameras, data and algorithms rather than retinas, optic nerves and a visual cortex. Because a system trained to inspect products or watch a production asset can analyze thousands of products or processes a minute, noticing imperceptible defects or issues, it can quickly surpass human capabilities.
 
-Here a Convulational Neural Network(CNN) has been made to predict which type of traffic signal is the given image showing to a decent accuracy(around 86%). I have here utilized the architechture of VGG19 model(from tensorflow keras). All images used to train the model are of .jpg or of .png format. These images have been convered into a 224 X 224 X 3 numpy array and fed into the model as input.
+Here a Convulational Neural Network(CNN) has been made to predict the type of traffic sign(s) the given image shows to a decent accuracy(around 86%). I have here utilized the architechture of VGG19 model(from tensorflow keras). All images used to train the model are of .jpg or of .png format. These images have been convered into a 224 X 224 X 3 numpy array and fed into the model as input.
 
 OUTPUT FORMAT: we obtain an array for each image fed to the model. Each such array contains probabilities of the image being the respective traffic sign. 
