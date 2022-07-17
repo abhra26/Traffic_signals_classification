@@ -1,6 +1,6 @@
 # Traffic_signals_prediction
 
-**Versiion 1.0.0**
+**Version 1.0.0**
 
 **Traffic signals prediction using a CNN model**
 
