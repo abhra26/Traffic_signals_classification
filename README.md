@@ -1,2 +1,3 @@
-# Traffic_signals_classification
-A CNN model is used to predict traffic signals by feeding it images up-to a decent accuracy 
+# Traffic_signals_multi-class classification
+
+Here a Convulational Neural Network(CNN) has been made to predict which type of traffic signal is the fed image showing. I have here utilized the architechture of VGG19 model. 
